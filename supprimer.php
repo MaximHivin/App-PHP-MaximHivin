@@ -20,7 +20,7 @@ $executeOk = $results->execute();
 // Test de réussite de la suppression
 if($executeOk) {
 
-    header('location: app.php');
+    header('location: index.php');
 }
 
 
